@@ -1,7 +1,7 @@
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s): Matthew Shelby
+	Date: 4/22/2018
 */
 
 
@@ -61,6 +61,12 @@ public class P2_InfiniteGuessingGame {
 				return numOfGuessesTaken;
 			} else {
 				System.out.println("Nope, guess again. ");
+				if(nextGuess > secretNumber) {
+					System.out.println("Your guess is too high");
+				}
+				if(nextGuess < secretNumber) {
+					System.out.println("Your guess is too low");
+				}
 				numOfGuessesTaken++;
 			}
 		}

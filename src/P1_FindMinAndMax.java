@@ -1,7 +1,7 @@
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s): Matthew Shelby
+	Date: 4/22/2018
 */
 
 import java.util.Scanner;
@@ -15,7 +15,14 @@ public class P1_FindMinAndMax {
         int min = Integer.MAX_VALUE;
         
         // YOUR CODE STARTS HERE
-
+        
+        System.out.print("Type a number (or -1 to stop): ");
+        int number = console.nextInt();
+        while (number >= 0) {
+        	System.out.print("Type a number (or -1 to stop): ");
+        	number = console.nextInt();
+        }
+        
 
         // YOUR CODE ENDS HERE
         
